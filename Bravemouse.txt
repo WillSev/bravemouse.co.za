@@ -1,0 +1,496 @@
+<!DOCTYPE html> <!-- Horizontal -->
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;   <!--100%-->
+}
+
+td, th {
+  border: 1px solid #dddddd;                <!--lightgrey -->
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;                <!--#00FFFF;aqua   #00FF00; lime green -->
+}
+</style>
+</head>
+<body>
+<center> <a href="bm.jpg"><img src="bm.jpg" alt="bravemouselogo.jpg" style="width:600px;height:500px;"><br></a> </center>
+<center><h1><u>WELCOME to BraveMouse </u> </h1></center>
+
+<table>
+
+  <p><center><h2><b style="color:green">Assisting you with your IT needs.</h2></b> </center>
+        <h2> The following list are the services that we offer <!-- to solve any problems that you may have-->.
+            Please do browse the list and when you find a service, confirm it with your Email address
+            so we can quote you and contact you regarding the work to be done .</h2></span></p>
+    <p><center> <b style="color:red"> Please Fill In Your Details Below </b></center>
+
+    <center><h2> Name:<input name="clientname" type="text" maxlength="40" style="width:250px;" /> Area:<input name="clientname" type="text" maxlength="40" style="width:250px;" </a></center>
+    </h2> To help us better identify who our clients are and how far an agent would have to drive if necessary.</b>
+
+</table>
+    <!-- 1st part to send to email--> 
+    <form action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);">
+    <script type="text/javascript"> </script>
+
+         
+<table>
+  <tr>
+    <th>Service </th>
+    <th>Description</th>
+	<th>           </th>
+    <th>Type your Email to Query</th>
+	<th>Your Name and Area       </th>
+  </tr>
+  <tr>
+    <td>Server Software Purchase, Installations and Setup </td>
+    <td></td>              <!-- NAME="ITSERV01"  AND  NAME="NAMEAREA01"  Are the references that get sent to the email-->
+    <td></td>
+    <td>  <input type="text" id="Service" name="ITSERV01" value=""> </td>
+	<td>  <input type="text" id="Namearea" name="NAMEAREA01" value=""> </td>
+	<td> &nbsp <a href="Win 10-11.jpg"><img src="Win 10-11.jpg" alt="Win 10-11.jpg" style="width:300px;height:100px;"><br></a>
+        
+    </td>
+  </tr>
+  <tr>
+    <td>Network Troubleshooting (speed issues, Disconnections, ect)  </td>
+    <td></td>
+    <td></td>
+    <td>  <input type="text" id="" name="ITSERV02" value="">  </td>
+	<td>  <input type="text" id="Namearea" name="NAMEAREA02" value=""> </td>
+     <td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="Network Repair.jfif"><img src="Network Repair.jfif" alt="Network Repair.jfif" style="width:175px;height:125px;"><br></a>
+        
+    </td>
+  </tr>
+  <tr>
+    <td>Lanpac Installations and Setup </td>
+    <td></td>
+    <td></td>
+    <td>  <input type="text" id="" name="ITSERV03" value=""> 
+	<td>  <input type="text" id="Namearea" name="NAMEAREA03" value=""> </td>
+	<td> &nbsp &nbsp &nbsp &nbsp <a href="Sage 300.jpg"><img src="Sage 300.jpg" alt="Sage 300.jpg" style="width:200px;height:100px;"><br></a>
+        
+    </td> 
+  </tr>
+  <tr>
+    <td>SAGE CRM packages installations  </td>
+    <td></td>
+    <td></td>
+    <td>  <input type="text" id="" name="ITSERV04" value="">  
+	<td>  <input type="text" id="Namearea" name="NAMEAREA04" value=""> </td>
+    <td> &nbsp &nbsp &nbsp &nbsp <a href="Sage 300.jpg"><img src="Sage 300.jpg" alt="Sage 300.jpg" style="width:200px;height:100px;"><br></a>
+        
+    </td>
+  </tr>
+  <tr>
+    <td>Setting up the backup systems</td>
+    <td></td>
+    <td></td>
+    <td>  <input type="text" id="" name="ITSERV05" value="">  
+	<td>  <input type="text" id="Namearea" name="NAMEAREA05" value=""> </td>
+    <td> &nbsp <a href="Backup Drive.jpg"><img src="Backup Drive.jpg" alt="Backup Drive.jpg" style="width:300px;height:100px;"><br></a>
+        
+    </td>
+  </tr>
+  <tr>
+    <td>Uninterupted power systems(ups) and invertor install on pc or whole office</td>
+    <td></td>
+    <td></td>
+    <td>  <input type="text" id="" name="ITSERV06" value="">  
+	<td>  <input type="text" id="Namearea" name="NAMEAREA06" value=""> </td>
+    <td> &nbsp &nbsp &nbsp <a href="Backup Power.jpg"><img src="Backup Power.jpg" alt="Backup Power.jpg" style="width:250px;height:200px;"><br></a>
+        
+    </td>
+     
+   </tr>
+    <tr>
+    <td>Installing/replacing CCTV cameras and DVR</td>
+    <td></td>
+    <td></td>
+    <td>  <input type="text" id="" name="ITSERV07" value="">  
+	<td>  <input type="text" id="Namearea" name="NAMEAREA07" value=""> </td>
+    <td> &nbsp &nbsp &nbsp <a href="CCTV.jpg"><img src="CCTV.jpg" alt="CCTV.jpg" style="width:250px;height:200px;"><br></a>
+        
+    </td>
+  </tr>
+    <tr>
+    <td>CCTV monitoring</td>
+    <td></td>
+    <td></td>
+    <td>  <input type="text" id="" name="ITSERV08" value="">  
+	<td>  <input type="text" id="Namearea" name="NAMEAREA08" value=""> </td>
+    <td> &nbsp &nbsp &nbsp &nbsp <a href="CCTV.jpg"><img src="CCTV.jpg" alt="CCTV.jpg" style="width:250px;height:200px;"><br></a>
+        
+    </td>
+  </tr>
+    <tr>
+    <td>Operating system installation</td>
+    <td></td>
+    <td></td>
+    <td>  <input type="text" id="" name="ITSERV09" value="">  
+	<td>  <input type="text" id="Namearea" name="NAMEAREA09" value=""> </td>
+    <td> &nbsp <a href="Win 10-11.jpg"><img src="Win 10-11.jpg" alt="Win 10-11.jpg" style="width:300px;height:100px;"><br></a>
+        
+    </td>
+  </tr>
+    <tr>
+    <td>Priority labour</td>
+    <td> </td>
+    <td></td>
+    <td>  <input type="text" id="" name="ITSERV010" value="">  
+	<td>  <input type="text" id="Namearea" name="NAMEAREA010" value=""> </td>
+
+    <td> &nbsp <a href="Top Priority.jpg"><img src="Top Priority.jpg" alt="Top Priority.jpg" style="width:250px;height:150px;"><br></a>
+        
+    </td>
+  </tr>
+    <tr>
+    <td>Format and reload</td>
+    <td></td>
+    <td></td>
+    <td>  <input type="text" id="" name="ITSERV011" value="">  
+	<td>  <input type="text" id="Namearea" name="NAMEAREA011" value=""> </td>
+
+    <td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<a href="Switch Symbol.jpg"><img src="Switch Symbol.jpg" alt="Switch Symbol.jpg" style="width:125px;height:150px;"><br></a>
+        
+    </td>
+  </tr>
+  <tr>
+  <td>Virus spyware removal</td>
+  <td></td>
+  <td></td>
+  <td>  <input type="text" id="" name="ITSERV012" value="">
+      <td>  <input type="text" id="Namearea" name="NAMEAREA012" value=""> </td>
+
+    <td> &nbsp <a href="Virus Removal.jpg"><img src="Virus Removal.jpg" alt="Virus Removal.jpg" style="width:250px;height:200px;"><br></a>
+        
+    </td>
+  </tr>
+    <tr>
+    <td>Windows repair</td>
+    <td></td>
+    <td></td>
+    <td>  <input type="text" id="" name="ITSERV013" value=""> 
+	<td>  <input type="text" id="Namearea" name="NAMEAREA013" value=""> </td>
+
+    <td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="Wndows Repair.jpg"><img src="Windows Repair.jpg" alt="Windows Repair.jpg" style="width:125px;height:150px;"><br></a>
+        
+    </td>
+  </tr>
+    <tr>
+    <td>Back up of data from hard drive</td>
+    <td></td>
+    <td></td>
+    <td>  <input type="text" id="" name="ITSERV014" value="">  
+	<td>  <input type="text" id="Namearea" name="NAMEAREA014" value=""> </td>
+
+    <td> &nbsp <a href="HDD Backup 1.jpg"><img src="HDD Backup 1.jpg" alt="HDD Backup 1.jpg" style="width:300px;height:150px;"><br></a>
+        
+    </td>
+  </tr>
+    <tr>
+    <td>Notebook stripping</td>
+    <td></td>
+    <td></td>
+    <td>  <input type="text" id="" name="ITSERV015" value="">  
+	<td>  <input type="text" id="Namearea" name="NAMEAREA015" value=""> </td>
+
+    <td> &nbsp &nbsp &nbsp <a href="Laptop Repairs.jpg"><img src="Laptop Repairs.jpg" alt="Laptop Repairs.jpg" style="width:250px;height:100px;"><br></a>
+        
+    </td>
+  </tr>
+    <tr>
+    <td>Data recovery</td>
+    <td></td>
+    <td></td>
+    <td>  <input type="text" id="" name="ITSERV016" value="">  
+	<td>  <input type="text" id="Namearea" name="NAMEAREA016" value=""> </td>
+    <td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="HDD Repair.jpg"><img src="HDD Repair.jpg" alt="HDD Repair.jpg" style="width:200px;height:100px;"><br></a>
+        
+    </td>
+  </tr>
+    <tr>
+    <td>Labour per hour</td>
+    <td></td>
+    <td></td>
+    <td>  <input type="text" id="" name="ITSERV017" value="">  
+	<td>  <input type="text" id="Namearea" name="NAMEAREA017" value=""> </td>
+
+    <td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="Costing P Hr.png"><img src="Costing P Hr.png" alt="Costing P Hr.png" style="width:200px;height:150px;"><br></a>
+        
+    </td>
+  </tr>
+    <tr>
+    <td>Clone of hard drive</td>
+    <td></td>
+    <td></td>
+    <td>  <input type="text" id="" name="ITSERV018" value="">  
+	<td>  <input type="text" id="Namearea" name="NAMEAREA018" value=""> </td>
+        <td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="HDD Backup.jpg"><img src="HDD Backup.jpg" alt="HDD Backup.jpg" style="width:175px;height:125px;"><br></a>
+
+        
+    </td>
+        </tr>
+    <tr>
+    <td>Transfer of case data PC TO PC and cellular to cellular</td>
+    <td></td>
+    <td></td>
+    <td>  <input type="text" id="" name="ITSERV019" value="">  
+	<td>  <input type="text" id="Namearea" name="NAMEAREA019" value=""> </td>
+    <td> &nbsp &nbsp  &nbsp  <a href="PC Case Upgrade.jpg"><img src="PC Case Upgrade.jpg" alt="PC Case Upgrade.jpg" style="width:300px;height:150px;"><br></a>
+        
+    </td>
+  </tr>
+    <tr>
+    <td>Setup of internet Email AND 3g Modem</td>
+    <td></td>
+    <td></td>
+    <td>  <input type="text" id="" name="ITSERV020" value="">  
+	<td>  <input type="text" id="Namearea" name="NAMEAREA020" value=""> </td>
+    <td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="Router.jpg"><img src="Router.jpg" alt="Router.jpg" style="width:150px;height:100px;"><br></a>
+        
+    </td>
+  </tr>
+    <tr>
+    <td>Password removal</td>
+    <td></td>
+    <td></td>
+    <td>  <input type="text" id="" name="ITSERV021" value="">  
+	<td>  <input type="text" id="Namearea" name="NAMEAREA021" value=""> </td>
+        <td> &nbsp &nbsp &nbsp &nbsp &nbsp <a href="Windows Login.png"><img src="Windows Login.png" alt="Windows Login.png" style="width:200px;height:150px;"><br></a>
+
+        </td>
+  </tr>
+<tr>
+    <td>Installation of Printers and Drivers </td>
+    <td> </td>
+    <td> </td>
+    <td>  <input type="text" id="" name="ITSERV022" value=""><br></td>
+	<td>  <input type="text" id="Namearea" name="NAMEAREA022" value=""> </td>
+    <td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="Printer.jpg"><img src="Printer.jpg" alt="Printer.jpg" style="width:200px;height:150px;"><br></a>
+        
+    </td>
+    </tr>
+<tr>
+    <td>Download of programs </td>
+    <td> </td>
+    <td> </td>
+    <td>  <input type="text" id="" name="ITSERV023" value=""><br></td>
+	<td>  <input type="text" id="Namearea" name="NAMEAREA023" value=""> </td>
+    <td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="ITimg023.jpg"><img src="ITimg023.jpg" alt="ITimg023.jpg" style="width:125px;height:175px;"><br></a>
+        
+    </td>
+
+    
+    </tr>
+<tr>
+    <td>Installing SQL on server or worstation </td>
+    <td> </td>
+    <td> </td>
+    <td>  <input type="text" id="" name="ITSERV024" value=""><br></td>
+	<td>  <input type="text" id="Namearea" name="NAMEAREA024" value=""> </td>
+    <td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="SQL Server.jpg"><img src="SQL Server.jpg" alt="SQL Server.jpg" style="width:150px;height:175px;"><br></a>
+        
+    </td>
+
+    </tr>
+<tr>
+    <td>Office Stationery and hardware gear </td>
+    <td> </td>
+    <td> </td>
+    <td>  <input type="text" id="" name="ITSERV025" value=""><br></td>
+	<td>  <input type="text" id="Namearea" name="NAMEAREA025" value=""> </td>
+    <td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="Office Stationary.jpg"><img src="Office Stationary.jpg" alt="Office Stationary.jpg" style="width:150px;height:175px;"><br></a>
+
+    </td>
+
+    
+</tr>
+<tr>
+    <td>Internet Router Installation/ Fibre or adsl </td>
+    <td> </td>
+    <td> </td>
+    <td>  <input type="text" id="" name="ITSERV026" value=""><br></td>
+	<td>  <input type="text" id="Namearea" name="NAMEAREA026" value=""> </td>
+    <td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="Router.jpg"><img src="Router.jpg" alt="Router.jpg" style="width:150px;height:100px;"><br></a>
+        
+    </td>
+
+    
+    </tr>
+<tr>
+    <td>Network switch installation </td>
+    <td> </td>
+    <td> </td>
+    <td>  <input type="text" id="" name="ITSERV027" value=""><br></td>
+	<td>  <input type="text" id="Namearea" name="NAMEAREA027" value=""> </td>
+    <td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="CAT5 Switch.jpg"><img src="CAT5 Switch.jpg" alt="CAT5 Switch.jpg" style="width:175px;height:125px;"><br></a>
+        
+    </td>
+
+    
+    </tr>
+<tr>
+    <td>Network point installation </td>
+    <td> </td>
+    <td> </td>
+    <td>  <input type="text" id="" name="ITSERV028" value=""><br></td>
+	<td>  <input type="text" id="Namearea" name="NAMEAREA028" value=""> </td>
+    <td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="CAT5 Cable.jpg"><img src="CAT5 Cable.jpg" alt="CAT5 Cable.jpg" style="width:200px;height:150px;"><br></a>
+        
+    </td>
+
+    </tr>
+<tr>
+    <td>Setting up worstation for windows </td>
+    <td> </td>
+    <td> </td>
+    <td>  <input type="text" id="" name="ITSERV029" value=""><br></td>
+	<td>  <input type="text" id="Namearea" name="NAMEAREA029" value=""> </td>
+    <td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="Sage 300.jpg"><img src="Sage 300.jpg" alt="Sage 300.jpg" style="width:200px;height:100px;"><br></a>
+        
+    </td>
+
+    
+    </tr>
+<tr>
+    <td>Installing Windows Server 2016 and above </td>
+    <td> </td>
+    <td> </td>
+    <td>  <input type="text" id="" name="ITSERV030" value=""><br></td>
+	<td>  <input type="text" id="Namearea" name="NAMEAREA030" value=""> </td>
+    <td> &nbsp <a href="Win 10-11.jpg"><img src="Win 10-11.jpg" alt="Win 10-11.jpg" style="width:300px;height:100px;"><br></a>
+        
+    </td>
+
+    </tr>
+<tr>
+    <td>Urgent callout</td>
+    <td> </td>
+    <td> </td>
+    <td>  <input type="text" id="" name="ITSERV031" value=""><br></td>
+	<td>  <input type="text" id="Namearea" name="NAMEAREA031" value=""> </td>
+    <td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="Call Out.jpeg"><img src="Call Out.jpeg" alt="Call Out.jpeg" style="width:200px;height:150px;"><br></a>
+        
+    </td>
+
+    </tr>
+<tr>
+    <td>Call out (under 10kms)</td>
+    <td> </td>
+    <td> </td>
+    <td>  <input type="text" id="" name="ITSERV032" value=""><br></td>
+	<td>  <input type="text" id="Namearea" name="NAMEAREA032" value=""> </td>
+    <td> &nbsp <a href="10km Raduis.png"><img src="10km Raduis.png" alt="10km Raduis.png" style="width:300px;height:100px;"><br></a>
+        
+    </td>
+
+    </tr>
+<tr>
+    <td>Booking Device or hardware in</td>
+    <td> </td>
+    <td> </td>
+    <td>  <input type="text" id="" name="ITSERV033" value=""><br></td>
+	<td>  <input type="text" id="Namearea" name="NAMEAREA033" value=""> </td>
+    <td> &nbsp &nbsp &nbsp &nbsp &nbsp <a href="consulting.jpg"><img src="consulting.jpg" alt="consulting.jpg" style="width:200px;height:150px;"><br></a>
+        
+    </td>
+
+    
+    </tr>
+<tr>
+    <td>Format and reload</td>
+    <td> </td>
+    <td> </td>
+    <td>  <input type="text" id="" name="ITSERV034" value=""><br></td>
+	<td>  <input type="text" id="Namearea" name="NAMEAREA034" value=""> </td>
+    <td> &nbsp &nbsp &nbsp <a href="HDD Clone.jpg"><img src="HDD Clone.jpg" alt="HDD Clone.jpg" style="width:250px;height:150px;"><br></a>
+        
+    </td>
+
+    
+    </tr>
+<tr>
+    <td>Installing IP phones onto cellular phones</td>
+    <td> </td>
+    <td> </td>
+    <td>  <input type="text" id="" name="ITSERV035" value=""><br></td>
+	<td>  <input type="text" id="Namearea" name="NAMEAREA035" value=""> </td>
+    <td> &nbsp &nbsp &nbsp &nbsp &nbsp <a href="IP to Cell.jpg"><img src="IP to Cell.jpg" alt="IP to Cell.jpg" style="width:200px;height:150px;"><br></a>
+        
+    </td>
+
+    
+    </tr>
+<tr>
+    <td>Management of wanted/unwanted devices on the wifi network </td>
+    <td> </td>
+    <td> </td>
+    <td>  <input type="text" id="" name="ITSERV036" value=""><br></td>
+	<td>  <input type="text" id="Namearea" name="NAMEAREA036" value=""> </td>
+    <td> &nbsp &nbsp &nbsp &nbsp &nbsp <a href="Cell Connection.jpg"><img src="Cell Connection.jpg" alt="Cell Connection.jpg" style="width:200px;height:100px;"><br></a>
+        
+    </td>
+
+    
+    </tr>
+<tr>
+    <td>Remote support via teamviewer or anydesk</td>
+    <td> </td>
+    <td> </td>
+    <td>  <input type="text" id="" name="ITSERV037" value=""><br></td>
+	<td>  <input type="text" id="Namearea" name="NAMEAREA037" value=""> </td>
+    <td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<a href="Remote IT Support.jpg"><img src="Remote IT Support.jpg" alt="Remote IT Support.jpg" style="width:200px;height:100px;"><br></a>
+        
+    </td>
+
+    
+</tr>
+  <tr>
+    <td>Installing IP phones along-side telkom line or stand alone </td>
+    <td></td>
+    <td></td>
+    <td>  <input type="text" id="" name="ITSERV038" value=""></td>  
+	<td>  <input type="text" id="Namearea" name="NAMEAREA038" value=""> </td>
+    <td> &nbsp <a href="IP Telephone.jpg"><img src="IP Telephone.jpg" alt="IP Telephone.jpg" style="width:300px;height:100px;"><br></a>
+        
+    </td>
+  </tr>
+  <tr>
+    <td>Running cat5/cat6/coaxal cables </td>
+    <td></td>
+    <td></td>
+    <td>  <input type="text" id="" name="ITSERV039" value="">  </td>
+	<td>  <input type="text" id="Namearea" name="NAMEAREA039" value=""> </td>
+    <td> &nbsp &nbsp &nbsp &nbsp &nbsp <a href="CAT5 Cable.jpg"><img src="CAT5 Cable.jpg" alt="CAT5 Cable.jpg" style="width:200px;height:150px;"><br></a>
+        
+    </td>
+  </tr>
+
+
+        <input type="submit" value="Submit"><br>    <!-- bottom submit button -->     
+
+<tr>
+        </tr>
+    
+    
+                                  <!-- mandatory to send to email-->
+<div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">Form to email</a></div>
+    
+<!-- <input name="ITSERV"skip_Submit" type="submit" value="Submit" />      test2 Top left Submit button -->
+    
+<script src="https://www.100forms.com/js/FORMKEY:GTM43ACSAMBB/SEND:cardosoclaims@gmail.com" type="text/javascript"></script>    
+    
+</table>
+   
+         
+    </form>      
+
+</body>
+</html>
